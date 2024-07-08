@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .month{
+            background-color:aquamarine;
+            text-align: center;
+            color: rgb(1, 16, 29);
+            font-size: 25PX;
+            font-family: itlic;
+            
+
+        }
+        .day{
+            background-color: gray;
+            font-size: 15px;
+            color:aliceblue;
+            font-family:Monospace ;
+        }
+        /* .day
+        tr:last-child{
+            color: red;
+        } */
+        #holiday::first-line{
+            /* padding: 200px; */
+            /* background-color: antiquewhite; */
+            font-weight: bold;
+            color: red;
+        }
+        #holiday{
+            background-color: rgb(178, 238, 190);
+            border: 2px 0px 1px 1px;
+            border-top-style: solid;
+            border-color: aliceblue;
+            
+        }
+        table{
+            border: 1px solid ;
+            height:400px;
+            width: 400px;
+            text-align: center;
+            border-collapse: collapse;
+            font-family:Monospace ;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Calender</h1>
+    <table>
+        <tr>
+            <td rowspan="" colspan="7" class="month">
+                <b>AUGUST</b>
+                <br>
+                <b>2024</b>
+                
+            </td>
+        </tr>
+        <tr class="day">
+            <td>MON</td>
+            <td>TUE</td>
+            <td>WED</td>
+            <TD>THU</TD>
+            <td>FRI</td>
+            <td>SAT</td>
+            <TD id="holiday">SUN</TD>
+        </tr>
+        <tr class="date">
+            <td style="color:rgb(163, 161, 161) ;">28</td>
+            <td style="color:rgb(163, 161, 161) ;">29</td>
+            <td style="color:rgb(163, 161, 161) ;">30</td>
+            <TD>1</TD>
+            <td>2</td>
+            <td>3</td>
+            <TD id="holiday">4</TD>
+        </tr>
+        <tr class="date">
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <TD>8</TD>
+            <td>9</td>
+            <td>10</td>
+            <TD id="holiday">11</TD>
+        </tr>
+        <tr class="date">
+            <TD>12</TD>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <TD>16</TD>
+            <td>17</td>
+            <td id="holiday">18</td>
+            
+        </tr>
+        <tr class="date">
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <TD>23</TD>
+            <td>24</td>
+            <td id="holiday">25</td>
+            
+        </tr>
+        <tr class="date">
+            <TD>26</TD>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <TD>30</TD>
+            <td>31</td>
+            <td id="holiday"></td>
+            
+        </tr>
+
+    </table>
+</center>
+</body>
+</html>
